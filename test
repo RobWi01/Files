@@ -1,0 +1,1663 @@
+KU LEUVEN
+FACULTY OF ENGINEERING SCIENCE
+ICT Service management
+review questions
+Gitte Van Orshoven
+Overleaf source code
+D0I69A ICT Service Management
+2 Information technology in a business environment
+1. For each of the descriptions below, identify the concept that is being defined:
+• A structured set of activities, executed in an organization:
+business process
+• A simple action, normally part of a business process:
+activity
+• A collection of related business processes:
+business function
+• A sequence of business functions via which business processes are sequenced to produce products or
+services with added value:
+value chain
+• Those functions in the Porter Value chain model that directly producing added value:
+primary activities
+• Those functions in the Porter Value chain model ensure that the primary activities can run smoothly:
+support activities
+• The extension of the value chain over several organizations:
+value system
+• The system of organizations and activities from raw materials to finished goods:
+supply chain
+• A single system for the creation, storage, management and processing of data:
+computer system
+• A collection of equipment, services and human effort supporting the creation, storage, management and
+processing of information:
+information system
+• Supporting individual business processes by the storage and processing of their data:
+data processing
+• Using information systems to make the execution of groups of related business processes more efficient:
+task automation
+• Automating complete business processes along the value chain of an organization:
+integrated information systems
+2. Explain what business processes, activities and business functions are. Give and discuss an
+example of each.
+A business process is a structured set of activities executed in an organization. It needs time, space, and
+resources. A business process can be composed of other business processes and activities.
+An activity is a simple action, and can be composed of sub-activities. An elementary activity is an activity that
+cannot be split in sub-activities.
+A business function is a collection of related business processes.
+Examples in book, Figure 2.1, pages 16-17.
+3. Describe the value chain model of Michael Porter.
+Primary activities contribute directly to the added value of the products
+• inbound logistics: contains activities such as the receipt, storage and distribution of raw materials
+• operations: includes the actual production: the conversion of raw materials into finished products
+1
+• outbound logistics: processes bringing the finished products to the customers: storage, transportation and
+order processing
+• marketing and sales: includes processes such as promotion, pricing, the making of offers and sales
+transactions
+• service: groups the post-sales activities: support, installation, repairs and training
+Support activities ensure that the primary activities can run smoothly
+• firm infrastructure: includes acquisition and management of the firm infrastructure needed to keep the
+organization operational
+• human resources management: processes of selection, hiring and management of employees
+• technology development: processes enable acquisition of necessary knowledge and competences
+• procurement: includes acquisition of resources to execute the business process
+Margin is the difference between total value of products of the organization and total cost of primary and
+support activities
+Figure 1: The value chain according to Michael Porter.
+4. Describe how value chains are integrated into value systems and into the supply chain.
+A value chain is a sequence of business functions via which business processes are sequenced to produce products
+or services with added value. A value system is an extended value chain crated by interconnecting value chains
+of different organizations. A supply chain is a complete system of organizations and resources to convert raw
+materials into finished products; it often contains several linked value systems and value chains.
+5. Describe three ways to use information systems in businesses. What are the main differences
+between these ways to use information systems?
+1. data processing
+indivicual business processes are supported by storage and processing of data
+only isolated business processes or small groups of business processes are involved
+2. task automation
+information systems are used to make execution of business processes and groups of related business
+processes more efficient
+3. integrated information systems
+automate complete business processes along value chain of the organization and along value systems
+interconnecting several organizations
+2
+6. Describe the properties of integrated information systems. How are these properties different
+from task automation?
+• integration
+different parts of the system are designed to work together
+• adjustment of the business processes to information systems
+sometimes business processes are modified to align them in the way in which the information system
+handles them
+• complex systems
+implement and use complex information systems, containing several computer systems, running specific
+and complex software, and interconnected by networks
+7. Discuss the attention points and issues when implementing integrated information systems.
+Which of these issues are also important for the implementation of task automation?
+• structured approach
+• consider the whole organizations
+• a vision
+• an architecture
+• change
+• several phases
+• not only IT specialists
+8. Explain why the introduction of integrated information systems requires a way of thinking
+that differs from the thinking of the “traditional” technically oriented IT specialist.
+The most important problems encountered during the introduction of integrated information systems are
+not technical. Rather, one is confronted with ever-changing user requirements, severe budget limitations,
+unmotivated staff and unacceptable project delays.
+9. Discuss the benefits of the use of information systems.
+1. operational benefits
+2. tactical benefits
+3. strategic benefits
+10. What is the difference between quantifiable and non-quantifiable benefits when using information
+systems? Give an example of each type of benefit of the use of information systems.
+quantifiable benefits represent an amount of money → can usually be estimated
+non-quantifiable benefits cannot/can hardly be explained in terms of money
+11. Many consider information technology as a commodity. Why is that?
+IR resources are a commodity. IT capabilities not.
+Competing enterprises may acquire and use the same information systems. Therefore they may all enjoy the
+benefits in the same way, and therefore it is impossible to develop a competitive advantage by using information
+technology.
+3
+12. Explain how the use of information technology may lead to a competitive advantage, even
+when IT resources are commodities.
+The IT capabilities are the way an organizations uses the IT resources. It is necessary to select the appropriate
+resources, to use them in a correct and efficient way, and to manage them properly. Organizations cannot make
+a difference with their IT resources, but the can make a difference by developing advanced IT capabilities, for
+instance by implementing the most appropriate integrated information systems.
+3 A framework for information management
+1. For each of the descriptions below, identify the concept that is being defined:
+• The information system domain that focuses on what happens in the organization
+business processes
+• The information systems domain that describes the hardware, system software and communications
+resources used to run the information systems
+infrastructure
+• The different phases through which an information system evolves
+life cycle
+• The phase of the life cycle considering the role of the system within the business
+conception
+• The phase of the life cycle during which an overall description of the system is created
+architecture
+• The life cycle phase during which the system is built
+development
+• The life-cycle phase during which the system is made operational
+roll-out
+• The life cycle phase during which the system is actually used by the end-users
+operations
+• The life cycle phase, entered when the system should be retired from use
+decommissioning
+• The systematic process of identifying, coordinating and stimulating people and other resources in order
+to realize a common goal
+project management
+• The activities to keep information systems running and properly serving the users
+operations management
+• The set of activities including the establishment of a service catalog and the handling of service requests
+services delivery management
+• The set of activities, concerned with the overall interaction between the business as a whole and the IT
+function
+IT governance
+• Any means to ensure that business goals are met as required
+control
+• The worries and issues, important to the different stakeholders
+concerns
+4
+• A minimum quality requirement, expressed quantitatively, imposed on an information service and/or an
+information system
+service level
+• The fraction of the time a service or system is operational and usable for the users
+availability
+• The total time a service or a system can operate without interruption
+mean time between failure (MTBF)
+• The extent to which a system is easy to use, manage and support
+usability
+• Establishing the identity of a user, wanting to use a system or a service
+authentication
+• Allowing or denying access to services and/or resources
+authorization
+• Keeping information from unauthorized persons
+confidentiality
+• The impossibility to alter information without authorization
+integrity
+• The impossibility to deny authenticity
+non-repudiation
+2. Describe the general framework for information systems: define and describe the components
+of this framework: the IT systems, the IT management and IT governance.
+Figure 2: The framework for IT management.
+• Information systems: complex combinations of hardware and software supporting the organization
+• IT management: the activities involved in management of the information systems; are carried out by the
+IT function
+• IT governance: activities that regulate the relationship between the business and the IT function
+• Concerns: describe worries and issues of the stakeholders
+5
+3. Describe the four domains of an information system, part of the general framework for
+information systems. Also describe the relationships between the domains.
+Domains:
+1. The business processes: focuses on what happens in the organization
+2. The data: considers the content and the structure of the data being used in the organization as well as
+the mutual relationships between the data and the rules and constraints that apply to the data
+3. The applications: focuses on the structure and the functionality of the applications part of the information
+system
+4. The infrastructure: focuses on the hardware, system software and communications infrastructure used to
+run the information system
+Relationships:
+1. Between the business processes and the data: in order to execute business processes, (business) data is
+needed
+2. Between the business processes and the applications: applications support the execution of business
+processes
+3. Between the applications and the data: applications create, read, update and delete data
+4. Between the applications and the infrastructure: applications need infrastructure to run on
+5. Between data and infrastructure: application data storage is undertaken by infrastructure
+4. The life cycle describes the different phases an information system evolves through. Describe
+each of the phases of the life cycle of an information system.
+1. Conception: consider the role of the system within the business
+2. Architecture: give an overall description of how the information system will look
+3. Development: information system is built, starting from the models created during the architecture phase
+4. Roll-out: developed information systems are made operational
+5. Operations: system is used on a daily basis
+6. Decommissioning: an information system that has reached the end of its useful life should be retired from
+use
+5. The life cycle describes the different activities, needed to set up and manage an information
+system throughout its complete life. During which phase of the life cycle do you situate each of
+these activities:
+• Maintenance of operational systems
+operations
+• Scrapping of hardware
+decommissioning
+• Integrate newly developed software components into the existing information systems
+roll-out
+• Installation of hardware and software of a newly developed system
+roll-out
+• Users contacting the help desk to report problems
+operations
+6
+• Creating a first architectural model of the new system
+architecture
+• Developing a general vision on the use of information systems
+conception
+• Customize an existing software package
+development
+• Monitor the proper functioning of information systems
+operations
+6. Describe the IT management activities.
+1. Project management: systematic process of identifying, coordinating and stimulating people and other
+resources in order to realize a common goal
+2. Operations management: all activities involved in keeping the operation information systems running and
+in properly supporting them and the users
+3. Services delivery management: all activities required in order to deliver IT services to the users
+4. Financial management: includes cost-benefit analysis of IT projects and the calculation and tracking of
+IT costs
+5. Quality management: quality of I services is expressed trough service levels
+6. Supplier management: IT departments have many suppliers of products and services; these need to be
+selected, contacted and monitored for performance
+7. Human resources management: includes all activities related to IT staff
+7. Which IT management activity would handle each of these situations:
+• Hiring a new system engineer
+human resources management
+• Creating the cost budget for next fiscal year
+financial management
+• Evaluating three offers from companies for new server hardware
+supplier management
+• Updating the services descriptions in the service catalog
+quality management
+• Defining service levels for the new database service
+quality management
+8. Describe the IT governance activities.
+• Business-IT alignment: the way IT functions in an organization should be in accordance with the business
+• Setting up and maintaining IT decision structures: decisions of information technology and its use in the
+organization should be taken in accordance by the business people and the IT management
+• Exerting control: control is exerted trough structures, regulations, procedures, reviews, audits, etc
+9. Describe the stakeholder concerns. What is the difference between the business concerns and
+the system concerns?
+The concerns describe the worries and issues of the stakeholders. Typical concerns are security, cost, compliance
+and service levels. The concerns should be considered throughout the governance, the management activities
+and during the while life cycle of the information systems.
+7
+Business concerns: products and services, economic aspects, and compliance
+System concerns: service levels, usability, and security
+10. What are the main economic concerns with IT systems?
+• Project cost
+• Operational (recurring) cost
+• Benefits
+11. Give four aspects of usability.
+• User friendliness
+• Maintainability
+• Administrator
+• Scalability
+12. What are the three basic pillars of security in IT? Give a brief description of each.
+• Authentication: who is who?
+• Authorization: what are you allowed to do and what not?
+• Confidentiality: you should not see what you are not allowed to see.
+13 IT management
+1. For each of the descriptions below, identify the concept that is being defined:
+• A means for a customer to obtain value without investing in the resources that deliver this value
+service
+• A document describing the services, supplied by the IT department
+services catalog
+• The service quality that the service provides the right functionality to the user
+effective
+• The service quality that the service has sufficient capacity and performance to allow proper use
+efficient
+• Services that are needed to implement end-user services
+basic services
+• Services, offered to end users in addition to the end-user services
+extra services
+• The end user service, providing desktop systems, laptops, tablets, and smartphones to end users
+desktop services
+• The provision of part of the IT services (or all of the IT services) by an external company
+outsourcing
+• A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable
+resources that can be rapidly provisioned and released with a minimal effort or service interaction
+cloud computing
+• The cloud computing model offering only processing, storage and network capacity to the user
+infrastructure as a service (IaaS)
+8
+• The cloud computing model where the provider supplies additional system software and supporting
+software on top of processing, storage and network capacity
+platform as a service (PaaS)
+• This ITIL process balances the need for IT services against the available supply
+service strategy
+• The purpose of this ITIL process is to deploy sufficient IT resources in order to deliver the required IT
+services at the agreed service levels
+service transition
+• This ITIL process supports the building, testing and roll-out of the IT services
+service transition
+• In ITIL, this is an unplanned interruption of an IT service or a significant reduction of the quality of an
+IT service
+incident
+• The ITIL process granting users the right to use a particular IT service
+service operation
+• This component of IT4IT provides a standard and repeatable model for creating an IT services management
+environment
+IT value chain
+• In this CMMI-SVC maturity level, processes are unstable and ad hoc
+initial
+• Starting from this CMMI-SVC maturity level, selected key processes are institutionalized. People are
+assigned responsibility and are trained
+managed
+• Starting from this CMMI-SVC maturity level, quality and performance are statistically defined and
+managed
+quantitatively managed
+2. Explain what IT services are and what the basic principles of IT services provision are.
+An IT service is a service that delivers value to users trough use of IT systems. Basic principles of IT services
+provision:
+• services catalog
+• each service has “unit of consumption” = service unit
+• users (“customers”) and IT department (“supplier”) enter agreements on minimal quality of service, called
+service levels → mutual agreement on service levels := service level agreements
+3. Describe what efficiency and effectiveness of IT services is and what the difference between
+these two service properties is.
+A service is effective when it provides the right functionality to the user. A service is efficient when it has
+sufficient capacity and performance to allow it to be used without causing unwanted delays or other worries.
+4. Describe the three types of IT services. Give an example of each.
+1. End-user services: services, offered and used by the end users; end-user services can contain basic services
+and can be “augmented” by extra services
+2. Basic services: services that are needed to implement end-user services
+3. Extra services: services offered to end users in addition to the end-user services; the enhance the value of
+the end-user service
+9
+5. Describe the six classes of IT services. Give an example of each.
+• Desktop services
+• Storage
+• Printing
+• Network and Internet
+• Application services
+– Application usage
+– Application development
+• Support services
+– Assistance
+– Maintenance and repair
+6. Why is it a good idea to bundle support services with their corresponding end-user service?
+Bundling support with all services spreads the (inevitable) support cost over more users and more services.
+7. What are the two options for choosing a service unit for an IT service? Discuss the advantages
+and disadvantages of each. For each option, give an example of an IT service that has this service
+unit.
+• Subscription service units
++ Simple to keep track of users
+- Cost not uniformly proportional to use
+e.g.: desktop PC service [/PC /month]
+• Volume service units
++ Pay for what you use, no more, no less
+- Measuring volume is (almost) always difficult
+- Volumes are difficult to forecast (budgeting, cost calculation)
+e.g.: Storage [Gbyte/day]
+e.g.: Printing [page]
+8. Discuss the options to locate (“source”) the IT department in a large organization. Discuss
+the advantages and risks of each approach.
+• one shared central IT department for the whole organization
++ economies of scale
++ high degree of standardization
++ ample room for development of new capabilities and new services
+- ineffective IT services
+- IT is far from business
+- Lack of flexibility
+• one separate UT departmen per division
++ customer intimacy
++ opportunity to specialize in IT services and infrastructure relevant to local business
+- high cost of IT
+- IT not managed closely enough
+• hybrid model
+10
+9. Explain what outsourcing is. What are the main reasons why an organization chooses for
+outsourcing?
+Outsourcing is contracting out part of the IT services to one or more specialized external companies.
+Main reasons:
+• organization wants to focus on its key competences
+• insufficient IT competences present within the organization
+• cost reduction
+• better service
+10. Organizations can outsource different aspects of their IT. Describe the different possibilities,
+each leading to a different “kind” of outsourcing.
+• complete outsourcing
+• outsourcing of system support
+• outsourcing of servers
+• outsourcing of application
+• desktop outsourcing
+11. Why should organizations always consider outsourcing with the utmost care?
+Once IT services are outsourced, the organization no longer has any direct control over the internal details of
+the IT services provision, as these are under the control of the external service provider.
+12. Define what cloud computing is.
+Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool
+of configurable resources that can be rapidly provisioned and released with a minimal effort or service interaction.
+13. Describe the main characteristics of cloud computing.
+• Flexible on demand service
+• Metered use
+• Universal access
+14. Describe the three service models for cloud computing. Start with the most limited service
+and end with the most complete service model.
+• Infrastructure as a Service (IaaS)
+• Platform as a Service (PaaS)
+• Software as a Service (SaaS)
+15. Describe the four ways a provider can offer cloud services to customers.
+• Public cloud
+• Private cloud
+• Community cloud
+• Hybrid cloud
+11
+16. What are the advantages of cloud computing?
+• A shift from capital to expense
+• Scalable
+• Cost savings
+• Limited staff requirements
+17. What are the risks, associated to cloud computing?
+• Security and privacy
+• Regulations and compliance
+• Lock-in
+18. Describe the ITIL-2011 service strategy. What is described in this ITIL book?
+1. Service strategy: how to develop a general strategy for IT service provision
+2. Service design: aspects of the design of IT services: general principles, the identification of the requirements,
+the services catalog management and the service level management
+3. Service transition: guidelines on the roll-out of IT services
+4. Service operation: daily operations of IT services
+5. Continual service improvements (CSI): principles and processes involved in improving the IT services
+19. What are the processes of the service strategy phase?
+• Services portfolio management
+• Financial management
+• Demand management
+• Business relationship management
+20. Describe the ITIL-2011 service design. What is described in this ITIL book? What are the
+processes of the service design phase?
+• Service catalog management
+• Service level management
+• Capacity management
+• Availability management
+• IT Services continuity management
+• Information security management
+• Supplier management
+• Design coordination
+21. Describe the ITIL-2011 service transition. What is described in this ITIL book? What are
+the processes of the service transition phase?
+• Transition planning and support
+• Change management
+12
+• Service asset and configuration management
+• Release and deployment management
+• Service validation and testing
+• Change evaluation
+• Knowledge management
+22. Describe the ITIL-2011 service operation. What is described in this ITIL book? What are
+the processes of the service operation phase?
+• Event management
+• Incident management
+• Request fulfillment
+• Problem management
+• Access management
+23. Describe the ITIL-2011 continual service improvement activities. What is described in this
+ITIL book? What are the processes of continual service improvement?
+• Service improvement
+• Service measurement
+• Service reporting
+24. To which ITIL-2011 life cycle phase does each of these processes belong:
+• Service level management: service design
+• Change management: service transition
+• Demand management: service strategy
+• Incident management: service operation
+• Access management: service operation
+25. What is the purpose of ITIL Service portfolio management?
+The objective of ITIL Service Portfolio Management is to manage the service portfolio. This ITIL process ensures
+that the service provider has the right mix of services to meet required business outcomes at an appropriate
+level of investment.
+26. Briefly describe ITIL IT Service continuity management.
+IT Service Continuity Management (ITSCM) aims to manage risks that could seriously impact IT services.
+This ITIL process ensures that the IT service provider can always provide minimum agreed Service Levels,
+by reducing the risk from disaster events to an acceptable level and planning for the recovery of IT services.
+ITSCM should be designed to support Business Continuity Management.
+27. What is the difference between ITIL demand management and ITIL capacity management?
+ITIL Demand Management aims to understand, anticipate and influence customer demand for services. This
+process works with Capacity Management to ensure that the service provider has sufficient capacity to meet
+the required demand for particular services.
+ITIL Capacity Management aims to ensure that the capacity of IT services and the IT infrastructure is able
+13
+to deliver the agreed service level targets in a cost effective and timely manner. The Capacity Management
+process considers all resources required to deliver the IT service, and plans for short, medium and long term
+business requirements.
+28. Briefly describe the main parts of the ISO/IEC 20000 standard.
+• part 1: service management systems requirements
+• part 2: guidance on the application of service management systems
+• part 4: process reference model
+• part 5: exemplar implementation plan for ISO/IEC 20000-1
+29. Is the ISO/IEC 20000 standard descriptive or prescriptive? Explain what you mean by your
+answer.
+ISO/IEC 20000 is a prescriptive standard. It tells you what you must do in order to be compliant with the
+standard. if you fail to implement everything the way described in the standard, you are not compliant. In
+addition, ISO/IEC 20000 contains strict requirements for compliance. These are auditable, so an auditor can
+use the requirements to verify whether your organization is compliant or not.
+30. How does the ISO/IEC 20000 standard relate to the ITIL standard? What are differences
+and the commonalities?
+ITIL is more elaborate than the ISO/IEC 20000 standard. The most general description of IT management is
+contained in the first part of the ISO/IEC 20000 standard (Service management systems requirements). More
+details and implementation guidelines are given in the rest of the standard. Still more details are contained in
+the ITIL books.
+An organization implementing ITIL can easily become ISO/IEC 20000 certified, as only minor changes in the
+processes are needed to become compliant with the ISO/IEC standard.
+31. Explain the difference between “ITIL-certified” and “ISO/IEC 20000-certified”.
+There is no formal independent third party compliance assessment available for ITIL compliance in an organization.
+Certification in ITIL is only available to individuals.
+32. The IT4IT standard uses a different approach to the description of IT management; which
+approach is that?
+The IT4IT standard approaches IT services management from the stance of the supply chain. The standard
+defines a general framework for IT management, mainly based on functionality and data necessary to implement
+IT services management. The standard is intended to be independent of technology, vendors and specific
+methodologies.
+33. Briefly describe the activities in the IT4IT value chain.
+• finance and assets
+• sourcing and vendor
+• intelligence and reporting
+• resource and project
+• governance, risk and compliance
+34. What are the five levels of abstraction at which the IT4IT reference architecture is defined?
+1. end-to-end overview
+14
+2. value stream documentation
+3. vendor-independent architecture
+4. vendor-specific refinement architecture
+5. solution architecture
+35. Why can you also consider COBIT (a standard for IT governance) as an IT management
+standard?
+COBIT has 5 governance and 32 management processes.
+36. What are the four capability levels defined by CMMI-SVC?
+1. Incomplete
+2. Performed
+3. Managed
+4. Defined
+37. What are the five maturity levels of CMMI-SVC?
+1. Initial
+2. Managed
+3. Defined
+4. Quantitatively managed
+5. Optimized
+38. What is the difference between the capability levels and the maturity levels in CMMI-SVC?
+Capability levels consider single process area, while maturity levels consider organization’s overall performance.
+39. What are the differences between the “defined” and the “quantitatively managed” maturity
+level in CMMI-SVC?
+Defined:
+• Implementation best practices (service continuity, incident handling)
+• Processes rigorously defined and described
+• Establishment consistent standard processes (variants in particular circumstances)
+• Proactive process management
+Quantitatively managed:
+• Quantitative measurement of process objectives and performance
+• Objectives based on customer requirements
+• Quality, performance statistically defined and managed
+• Process performance is predictable and consistent
+15
+14 Services delivery management
+1. For each of the descriptions below, identify the concept that is being defined:
+• The document containing the description of the services, offered by the IT department
+service catalog
+• A document where an end user expresses the desire to receive an IT service from the IT services provider
+customer service request
+• The fact that the cost of IT resources or IT services per unit lowers as more units are being deployed
+economies of scale
+• The scaling law in which the total cost is proportional to the square root of the total capacity. It was
+originally observed at the end of the 1940’s and held up for mainframe servers in the 1950’s and early
+1960’s.
+Grosch’s law
+• The observed relation that the number of transistors on a single clip doubles each 18 to 24 months
+Moore’s law
+2. Describe the contents of the service catalog.
+• description of overall services strategy
+• summary of available and planned services
+• terms and conditions for request and delivery of services
+• standard service level agreement
+• for each service:
+– name of service
+– version of service
+– description of service
+– offered service levels
+– groups of users for whom service is intended
+– service unit(s) and service pricing
+– service prerequisites
+– specific terms and condition for requesting service
+3. Why is it a good idea to use the same service units for all variants of one service?
+It makes the switch to another variant easier.
+4. Who handles service requests?
+The IT services manager.
+5. Describe activities of handling and fulfilling IT service requests.
+1. Request is submitted by the customer
+2. Request is registered in customer service request database
+3. Request is evaluated
+4. Request is approved
+16
+6. What is the difference between a simple and a complex service request?
+A simple request is immediately progressed to approval. The customer is not informed of financial consequences.
+It is assumed that the customer consulted the service catalog for the financial consequences.
+A complex request is examined in more detail. The customer is explicitly informed of the financial consequences
+of the service.
+7. Describe the parameters and the issues to consider when evaluating a complex service request.
+• urgency
+• resources needed for delivery or activation of service
+• estimated lead time for implementation
+• financial consequences for customer
+• financial consequences for IT department
+8. Describe the three necessary conditions for approving a service request.
+• user receiving services should be authorized
+• customer should have authorization to engage in eventual extra cost
+• IT department has authorization to spend extra cost
+9. Describe the three levels at which we make IT services forecasts.
+• business processes
+• services consumption
+• resources
+10. Describe the two main techniques for obtaining useful forecasts of IT services usage. Is each
+of these techniques applicable to each of the three levels? Why (not)?
+• user forecasts → not always reliable; good at capturing large changes → applicable to business processes
+and services consumption
+• trend analysis → usually reliable; show real evolution; cannot detect large changes → applicable to services
+consumption and resources
+11. Why are user forecasts not always reliable? What can be done about this?
+Reliable forecasts usually a combination of user forecasts and trend analysis: “zeroth-order” forecast by trend
+analysis and user forecasts used to capture exception changes in business.
+12. What do we mean by “economy of scale”?
+The cost of a single resource/service/. . . decreases when the amount of resources/services/. . . increases.
+13. What are five common patterns of capacity – cost relationships, found in IT resources?
+Briefly describe each pattern. Give an example of each pattern.
+• linear scaling, e.g.: development effort
+• linear scaling with upfront cost, e.g.: large-capacity storage systems
+• stepped cost, e.g.: network connections
+• fixed cost, e.g.: much application software
+17
+• Grosch’s law, e.g.: some computer hardware
+14. Explain why linear scaling with upfront cost effectively leads to economies of scale while
+linear scaling does not.
+The upfront cost is divided among the capacity to get a cost per item/resource. When only one item/resource
+is purchased, the entire upfront cost is assigned to that item/resource. When a hundred items/resources are
+purchased, only 0.01 of the upfront cost is assigned to each item/resource, making the cost per item/resource
+smaller.
+15 Financial management
+1. For each of the descriptions below, identify the concept that is being defined:
+• A (future) cash flow, not corrected for inflation
+real cash flows
+• A (future) cash flow, corrected for inflation
+nominal cash flows
+• The interest rate for which the net present value of a series of cash flows is zero
+nominal interest rate
+• The result of a cost calculation, based on budgeted costs and forecasted service volumes
+standard cost
+• The result of a cost calculation, based on real expended costs and real consumed service volumes
+actual cost
+• Logical combinations of hardware, software, services and human resources supporting the delivery of
+services to the customers, used as intermediary in IT services cost calculation
+list of resources
+• The principle of letting users pay for the use of IT services
+charge-out
+2. Describe the three steps in performing a cost-benefit analysis of an IT project.
+1. determine costs
+2. determine benefits
+3. compare costs and benefits
+3. How are the costs and the benefits compared to each other in an IT cost-benefit analysis?
+They are compared per year over useful lifetime. A positive cash flow is used for the benefits, and a negative for
+the costs. It usually is negative at the start (development) and positive during operations (benefits realization).
+The net present value 
+NP V =
+X
+N
+n=0
+CFn
+(1 + i)
+n
+!
+is used for the calculations.
+4. Explain the difference between real cash flows and nominal cash flows.
+Real cash flows (current cash flows) are not corrected for inflation.
+Nominal interest rate = real interest rate (i = r)
+Nominal cash flows (money cash flows) are corrected for inflation.
+Nominal interest rate = 1 + i = (1 + r)(1 + h) with r real rate, h inflation rate; in practice: i ≈ r + h
+18
+5. Why is the direct allocation of costs to services to calculate the IT services cost in practice
+unfeasible? Support your answer with a reasonable example.
+For N items and M services, N × M numbers should be calculated. Therefore it is better to allocate costs to
+resources and then to services.
+6. What is the role of the “resources” in an IT cost calculation and why do we need them?
+Resources are an intermediate step in cost calculation. Instead of assigning the costs immediately to the services,
+the costs are assigned to the resources. When the cost of the resources is calculated, the resource costs can be
+assigned to the services using that resource.
+7. Give guidelines for the definition of resources in IT cost calculation and also give examples of
+good resources.
+A resource is a logical combination of hardware, software, personnel and services. The resources should be
+complete (include all costs). More resources = more granular cost info = more cost calculation effort.
+8. How do we consolidate the personnel costs in an IT cost calculation? What different options
+are there to do the consolidation? What are the advantages of each option?
+Structure the personnel costs and determine the cost per operational staff member. These costs can be directly
+assigned to one or more resource(s).
+Different options:
+•
+total staff cost
+# operational staff members
+• cost per individual staff member
+•
+cost per group of similar staff members
+# operational staff members per group
+9. During one fiscal year, when would you calculate the standard cost of IT services and when
+would you calculate the actual cost?
+The standard cost is calculated at the start of the fiscal year, and the actual cost at the end of the fiscal year.
+10. Why would you group service variants? What are the criteria to group variants of services
+in the cost calculation?
+Grouping related services avoids too much detail and creates cost differentiation within group.
+criteria:
+• Same service, different service level
+• Same service, different capacity
+• Different service, essentially identical
+• Different service, same resources
+11. What are the main considerations when determining the number of different resources to
+define in a cost calculation? (what are the advantages of defining a larger number of resources,
+what are the advantages of defining a smaller number of resources)?
+It should be easy to assign each cost to resource and to assign each resource to service. The resources should
+be complete (include all costs).
+More resources → more granular cost info → more cost calculation effort
+19
+12. Describe the mechanism to allocate the costs to the resources and to determine the total
+cost of the resources.
+Assignments based on:
+• Inventory (e.g. depreciation of equipment, part of resource)
+• Contract (e.g. license of software, part of resource)
+• Staff function (e.g. operational staff, supporting resource)
+• Ad-hoc decision (estimate)
+total cost of resource = P cost × allocation
+13. Describe the mechanism to allocate the resources to the IT services and to determine the
+cost of the services.
+Assignments based on:
+• Use of resource (e.g. firewall, used for internet access service)
+• Staff allocation (e.g. programmers doing development or maintenance)
+• Ad-hoc decision (estimate)
+total cost service = P cost × allocation
+14. Describe how to calculate the unit cost of the IT services from the total cost of each service.
+Especially explain how to proceed if there are service variants that should be allocated a different
+unit cost.
+services unit cost = total service cost / number of service units
+For service variants:
+Give each variant (l) of a service k a weight fkl (#variants: Tk)
+Nkl is the number of units of variant l of service k
+Then:
+Total effective service units of service k: Uk =
+PTk
+l=1 fkl.Nkl
+Cost of unit weight (f = 1) of service unit k: S
+(U)
+k = Sk/Uk
+Unit cost of variant l of service k: S
+(U)
+kl = fklS
+(U)
+k =
+fkl.Sk
+Uk
+15. Explain how the cost calculation can be summarized using matrix calculation. Why is this
+calculation so useful?
+16. Describe the general principles of charge-out.
+• understandable
+• fair
+• predictable
+• verifiable
+• consistent
+17. Describe the three steps to set up an internal charge-out system. Also give a few guiding
+principles to obtain a good internal charge-out system.
+Charge-out steps:
+1. Define services
+20
+2. Cost calculation
+3. Charge out consumed services
+Guiding principles:
+• Do not over-recover from users (=set IT services prices too high)
+• Do not under-recover from users (=set IT services prices too low)
+18. How can the differences between the total actual IT cost and the total charge-out be handled?
+Discuss the advantages and disadvantages of each option.
+• Customers pay more than actual cost
+• Company has excessive overhead costs to cover the higher actual cost
+19. Why is it a bad idea to systematically and severely over-charge users for their IT services?
+IT costs for users are too high. The company products and services are overprices. This leads to a loss of
+competitiveness because the offers are priced too high.
+20. Why is it a bad idea to systematically and severely under-charge users for their IT services?
+IT costs for users are too low which lead to excess IT costs as overhead. The company products and services
+are underprices which leads to loss of profitability because profit erosion occurs by excessive overhead costs.
+21. What are three good practices to obtain useful forecasts of IT services consumption?
+Forecasts from different sources:
+• customer surveys
+• historic trends
+• particular changes in enterprise
+22. What are good practices to monitor the consumption of volume-based IT services?
+• measure volumes by constant monitoring of use of service
+• integrate monitoring into resources that implement service
+• monitoring should allow to correct identification of user during each use of service
+• monitoring data is kept in log files
+23. What are good practices to monitor the consumption of subscription-based IT services?
+• charged at fixed rate
+• keep an inventory for each service
+• the inventory may be part of the operational system
+16 Operations management
+1. For each of the descriptions below, identify the concept that is being defined:
+• The process of planning and coordinating modifications in IT
+change handling
+• A modification of the IT infrastructure as a consequence of the activation of a standard service
+standard change
+21
+• The IT management body assessing and approving changes
+change committee
+• A significant change of state in an IT system, e.g. a logon, a file opening, a disk read failure
+event
+• An unwanted interruption or degradation of an IT system or service
+incident
+• The underlying persistent cause of one or more (potential) unwanted interruptions or degradations of an
+IT system or service
+problem
+• An event signaling that a predefined limit of an IT system parameter is exceeded, e.g. that a disk is more
+than 95% full
+threshold event
+• An incident with a large scope and a large impact
+major incident
+• An arrangement that (partly) removes the symptoms of a problem without removing the root cause
+incident handling
+2. What is a resource item? Give examples of such items.
+A resource item can be a piece of hardware (e.g. PC), a piece of software (e.g. application), or a document
+(e.g. guideline).
+3. What possible relations can there exist between resource items? Give an example of each.
+• a resource item consists of other resource items
+• a resource item is installed on another resource item
+• a resource item is connected to another resource item
+• a resource item is associated with another resource item
+4. What information about resource items is typically stored in a resource item database?
+• type of resource
+• identification
+• brand, model, type, version
+• supplier
+• purchase value and residual value
+• location of resource
+• status
+• configuration information
+• comments
+• relationships between different resource items
+5. Describe the instants a resource item database needs to be updated and the reasons for
+updating items.
+it needs to be updated each time a resource item is modified in some way:
+22
+• newly purchased item
+• item made operational
+• item modified
+• item decommissioned
+6. Resources tracking is an activity that provides services to other management activities; to
+which activities and how does resources tracking provide them services?
+• event handling
+• incident handling
+• problem handling
+• change handling
+• financial management
+• service planning
+7. There are three kinds of changes. Describe each of them, emphasizing the differences between
+them.
+• standard change: a modification of the IT infrastructure as a consequence of the activation of a standard
+service
+• urgent change: arises as a consequence of an incident
+• normal change: change that is neither a standard change nor urgent
+8. Who can issue changes? Describe the kinds of changes that can be issued by different parties.
+• technical staff
+• service desk
+• IT services manager
+• external suppliers
+9. Describe the process of change handling.
+standard change:
+1. receive request
+2. change manager assesses the change as acceptable or not
+3. financial approval
+4. implementation
+normal change:
+1. receive request
+2. change manager assesses the change as acceptable or not
+3. preparation
+4. change committee assess change for approval
+5. master planning of changes is elaborated
+23
+6. all involved parties are informed
+7. changes are done
+8. post-implementation review
+10. What are the tasks of the change committee?
+• broadly assessing normal and urgent changes
+• prioritizing urgent changes
+• formally approving normal changes and urgent changes
+• giving recommendations for initial assessment of changes
+• defining guidelines for urgent changes and standard changes
+11. What roles (job functions) are part of the change committee?
+The change committee is a body consisting of representatives of IT management, the technical staff, operational
+IT management, the users, and optionally the relevant suppliers and business management. The change
+committee is headed by the change manager.
+12. Why are urgent changes always the subject of a post-implementation review?
+The aim of a post-implementation review is to verify that the change is successful and to formulate recommendations
+for improvements whenever appropriate. Urgent changes are always subject of a post-implementation review
+to also verify whether the change was indeed urgent.
+13. Explain the difference between an event, an incident and a problem.
+an event is anything that happens. An incident is an event that indicated a disturbance in IT services provision.
+It is also defined as an unwanted interruption or degradation of functioning of operation IT system. A problem
+is an underlying persistent cause of one or more incidents.
+14. Describe the different kinds of events. Which kind of event give rise to incidents?
+• events signaling normal operations
+• threshold events
+• events reporting exceptions
+• events reporting malfunctions
+15. Describe the several ways of detecting events.
+• built-in detection
+• monitoring tools
+• user reports
+24
+16. Describe how an event is handled.
+Figure 3: Process of event handling.
+17. How can incidents be detected?
+Incidents can be detected by analysing the logged events. They are stored in the incident database which stores:
+• date and time
+• resource item(s) involved
+• description
+• identification reporting user(s)
+• category (hardware, software, user problem,. . . )
+18. Describe the process of incident handling.
+Figure 4: Process of incident handling.
+25
+19. What are the criteria to determine whether an incident is a minor incident, a major incident
+of a disaster?
+scope/impact small medium large
+small minor minor major
+medium minor major major
+large major major disaster
+20. Who typically solves minor incidents?
+Service desk staff member
+21. Describe the techniques to diagnose an incident.
+• diagnostic scripts
+– specific tests to locate malfunction
+• incident matching
+– find info on similar incidents
+– look up symptoms
+– look up error codes/messages
+– anecdotic knowledge of system engineers
+22. Describe the techniques to solve an incident once it is diagnosed.
+• component replacement/repair
+– replace defective component
+– restart system/service → fully restored
+• back-up measures
+– activate back-up system, taking over from failed system
+– service restarted, often at lower quality level
+– back-up system has lower capacity/performance
+• workaround
+– bypass failing system
+– service usually reactivated at lower quality level
+23. What do we mean by escalation of an incident? Describe the different options for escalation.
+The incident is transferred to technical support staff (system engineers). After the solution, it is transferred
+back to service desk (final responsibility).
+23. How do we typically become aware of a problem?
+• one or more incidents
+• incident review
+• threshold events
+• specific reports
+24. Describe the techniques to diagnose a problem.
+• diagnostic scripts
+26
+– test scenarios to determine root causes
+• problem matching
+– find problem in database (documented problems)
+– the Internet
+• problem replication
+– replicate in test environment
+– (more complex situations)
+25. What are the different ways of creating a workaround to a problem?
+• install back-up system
+– temporary system replaces malfunctioning system
+– often lower capacity
+• substitute services
+– replace service by similar service
+• restrict usage
+26. Describe commonly implemented actions for solving problems.
+• hardware repair/replacement
+– replace defective components or systems
+• software modification/upgrade
+– modify software to remove bug (“patch” or source code modification + recompilation + reinstallation)
+• installation additional resources
+– add servers, processors, memory, disk storage
+17 Quality management
+1. For each of the descriptions below, identify the concept that is being defined:
+• A quantitative definition of a minimum quality requirement for one particular aspect of a service
+service level
+• The percentage of the time a service is operational and can be used
+availability
+• Technical quality requirements for IT infrastructure and resources that support the realization of service
+levels
+service level agreements
+• The average time period between the startup of a component or a service and the moment this component
+or service fails
+mean time between failures
+• The average time period between the moment a component or a service fails and the moment this
+component or service is again operational
+mean time to repair
+• A piece of equipment that, when it fails, causes the complete system of which it is part to fail
+single point of failure
+27
+• The installation of multiple servers that automatically take over workload if any of them fails
+clustering
+• The technique of decoupling instances of the operating system from instances of the hardware
+virtualization
+• A system that provides electric power when the regular power supply fails. It usually consists of batteries,
+providing electricity for 10 to 30 minutes
+UPS
+• A plan that explicates what needs to be done when a disaster strikes the data center
+disaster recovery plan
+2. What are the three important properties of a good service level?
+• it is about quality
+• it defines minimum requirements
+• it is quantitative
+3. Give a formal definition of a service level and explain what the different parameters in the
+definition mean. Illustrate the definition with a proper example.
+In at least x% of all measurements of parameter y of the service, performed over a period p, a value will be
+obtained of at least/at most/equal to/ z.
+• y: subject of service level
+• z: threshold value of parameter y
+• p: period over which the measurements of parameter y will be collected
+• x%: frequency with which the measurements should reach threshold value z
+4. There are four aspects of a service that can be the subject of a service level. Describe each of
+these four aspects. Also give an example of a service level for each aspect.
+• availability
+• capacity
+• performance
+• administration and support
+5. What are operational levels and how are they related to service levels?
+operational levels are minimum quality requirements for service levels for server, network, and database. They
+refer to infrastructure and resources that are being used to deliver ICT services. Operational levels of basic
+equipment are combined into service levels of resources, which are combined into service levels of services.
+6. What actions can be taken when a service provider does not meet service levels?
+• discuss level in meeting with provider and customer
+• provider offers discount for level
+• provider pays fine
+• service contract (party) terminated
+28
+7. What is MTBF? Also give an example. What is the relation between the MTBF and the error
+rate?
+MTBF = Mean Time Between Failures = the average time period between the startup of a component or a
+service and the moment this component or service fails
+error rate = failure rate = 1/MTBF
+7. What is MTTR? What determines the MTTR of a component?
+MTTR = Mean Time To Repair = the average time period between the moment a component or a service fails
+and the moment this component or service is again operational
+8. Explain why the MTBF of a component can be longer than its life time.
+MTBF excludes external factors
+• human errors/operation errors
+• “disaster” (flood, earthquake, fire)
+• scheduled interruptions (restarts, maintenance, changes)
+9. Discuss the so-called bathtub curve, showing the error rate of a system.
+Figure 5: Bathtub curve.
+10. Relate the MTBF and the error rate of a system to the reliability.
+Reliability = the uninterrupted amount of the time a piece of infrastructure, a resource or a service can effectively
+be used
+11. The MTTR consists of several periods of time. Describe these periods of time.
+Figure 6: Decomposition of MTTR.
+29
+12. Define the availability of a system in terms of its MTBF and MTTR.
+Availability = the fraction of the time a piece of infrastructure, a resource or a service can effectively be used
+availability β =
+MT BF
+MT BF + MT T R
+unavailability 1 − β =
+MT T R
+MT BF + MT T R
+13. What are the “two-to-five nines” in availability?
+99% 1 hour per 4 days
+99.9% 1 hour per 6 weeks
+99.99% 1 hour per 14 months
+1 minute per week
+99.999% 1 hour per 11 years
+1 minute per 10 weeks
+14. Express the availability of a composite system in terms of the availabilities of its components.
+If the availabilities are high, a simple expression can be used: which expression is that?
+βS =
+Y
+N
+i=1
+βCi
+1 − βS =
+X
+N
+i=1
+1 − βCi
+forX(1 − βCi
+) << 1
+15. Describe general techniques to increase the availability of an IT system.
+• redundant systems
+• server clustering
+• server virtualization
+• RAID storage
+• remote mirroring
+• UPS
+• disaster recovery plan
+16. Describe the general principle of RAID.
+• combine multiple disks into one system
+• have more disks than necessary
+• use extra disk(s) to store redundant information or spread redundant information over all disks
+• when component fails: use this redundant information to restore data (restoring data is possible without
+performance degradation)
+30
+17. What is RAID-1? Give the advantages and disadvantages of this technique.
+Figure 7: RAID-1
+18. Describe RAID-5. How does RAID-5 avoid bottlenecks in disk writing?
+Figure 8: RAID-5
+19. Briefly describe disaster recovery. What is it and how should it be managed?
+• disaster recovery site
+– redundant remote servers
+– off-line (cold stand-by)
+– on-line (hot stand-by)
+– take over in case of disaster
+• disaster recovery plan
+– action plan when disaster strikes
+– actions to activate disaster recovery site
+– follow-up + return to normal
+20. Give examples of service levels for capacity and performance.
+• Internet connection: Minimum upload/download bandwidth
+• (Network) storage: Minimum available storage
+• IaaS, PaaS: Minimum processor capacity
+• Printing: Minimum pages per minute
+31
+• Response times: Average response times; Response time percentiles
+21. Give examples of service levels for administration and support.
+• Standard request fulfilment: Maximum lead time
+• Incident handling, problem handling: Maximum lead time
+18 Supplier management
+1. For each of the descriptions below, identify the concept that is being defined:
+• A supplier that shares confidential information with us, the customer
+strategic supplier
+2. Describe how we classify suppliers according to their relationship with us, the customer.
+• strategic suppliers: partnering relationships, often sharing confidential information
+• tactical suppliers: represent significant commercial activity and business interaction
+• operational suppliers: supply operational products and services
+• commodity suppliers: supply easy-to-replace commodity products
+3. Describe the activities of supplier management.
+• identify new suppliers and supplier requirements
+• evaluate new suppliers and new offerings
+• establish new suppliers and new contracts
+• manage supplier and contract performance
+• renew or terminate supplier contracts
+19 Human resources management
+1. For each of the descriptions below, identify the concept that is being defined:
+• The overall manager of the IT department
+chief information officer (CIO)
+• The person, responsible for all services provision by the IT department
+services director/services delivery manager
+• The person in charge of a team of technical staff members
+coach/team leader
+• The staff member coordinating one or more aspects of the service delivery
+service manager/coordinator
+• The person, responsible for the operational aspects of the computer systems security
+security officer
+• The person installing infrastructure and software and making them operational
+system engineer
+• The person responsible for the configuration of the infrastructure and the software
+system administrator
+32
+2. Describe the management functions in the IT department.
+• senior management
+– chief information officer (CIO): overall manager of the IT department of an organization
+– services director/services delivery manager: responsible for all services provision by the IT department
+to its customers and users
+• project management and operations
+– project manager: in charge of one or more IT projects
+– coach/team leader: in charge of a team of technical staff members, like analysts, programmers, system
+engineers or operators
+3. Describe the architecture functions in the IT department.
+• business architect: analyses the business processes of the organization
+• technical architect: involved in the technical aspects of the information system architecture and design
+– data architect: focuses on the structure of the data and the design of the databases and documents
+– application architect: focuses on the choice and the general structure of the applications
+– infrastructure architect: focuses on the architecture of the infrastructure needed to run the application
+software and support data storage
+4. Describe the service delivery functions in the IT department.
+• service manager/coordinator: coordinates one or more aspects of the service delivery
+• service desk staff member: is present at the service desk and helps the users with their problems,
+information queries and service requests
+• security officer: is responsible for the operational aspects of the computer systems security
+5. Describe the technical and administrative functions in the IT department.
+• system development: these staff members participate in application development and maintenance
+– analyst: makes a detailed analysis of the requirements for the application
+– programmer: writes the application program code and performs the first tests on the developed code
+– tester: carries out systematic tests on newly developed programs or parts of programs
+• support: these staff members support the daily operations
+– system engineer: installs infrastructure and software, and makes them operational
+– system administrator: is responsible for the configuration of the infrastructure and the software
+– operator: is responsible for the daily operations of the IT infrastructure and the application
+6. Describe the organizational structure of an IT department.
+Figure 9: Organizational structure of an IT department.
+33
+7. In which organizational IT department would you situate each of these IT staff members?
+• The chief information officer
+management and staff functions
+• The business architect, responsible for the overall IT architecture
+strategy and architecture
+• A JAVA programmer
+development team
+• The services director
+management and staff functions
+• A system engineer, responsible for the Internet connection
+support
+• The operator of the mainframe server
+daily operations
+20 IT governance
+1. For each of the descriptions below, identify the concept that is being defined:
+• The system by which the current and future use of IT is directed and controlled
+corporate governance of IT
+• IT systems providing information to support the business tactics or strategy
+informational systems
+• The practice of having users pay for the services they use
+charge-out
+• According to COBIT, these are factors that determine whether or not IT governance works
+enablers
+• According to COBIT, the best way to achieve enabler goals
+best practices
+2. Explain what IT governance is and how it relates to corporate governance.
+IT governance is the way in which IT is managed at the global organizational level and the way in which the
+decision authority on IT is organized within an organization.
+IT governance is a part of corporate governance.
+3. The ISO/IEC 38500 standard makes a difference between directors and managers. Explain
+this difference.
+Directors are senior management and are responsible for governance. It includes senior executives, board
+members, and owners.
+Management is the control and processes for governance. Managers implement governance.
+4. Describe the three tasks of directors, according to the ICO/IEC 38500 standard.
+• Evaluate current and future use
+• Direct preparation and implementation of plans and policies
+• Monitor conformance
+34
+5. Briefly describe the six principles of proper IT governance, according to the ISO/IEC 38500
+standard.
+1. responsibility
+IT department should understand and accept its responsibilities and have authority to perform necessary
+action
+2. strategy
+organization’s business strategy should take into account the IT capabilities; strategic IT plans should
+consider business needs
+3. acquisition
+IT acquisitions made for valid reasons after analysis and balancing of benefits, opportunities, costs and
+risks
+4. performance
+IT should be fit for purpose, providing a level of quality that meets current and future business requirements
+5. conformance
+IT complies with legislation and regulations
+6. human behaviour
+IT respects human behaviour in its policies, practices and decisions
+6. Describe the benefits of adopting the ISO/IEC 38500 standard.
+• conformance
+– balance risks
+– encourage opportunities from IT
+– establish vocabulary
+• performance
+– implementation and operation of appropriate assets
+– responsibility and accountability of IT supporting organization goals
+– business continuity and sustainability
+– alignment of IT with business needs
+– efficient allocation of resources
+– services, markets and business innovation
+– good practice in stakeholder relationships
+– cost reduction
+– realization of benefits from investments in IT
+7. Briefly describe the three COBIT stakeholder needs.
+• benefits realisation
+– IT should deliver benefits to the business
+– IT governance aims at realizing these benefits
+• risk optimisation
+– Risk and benefit should be properly balanced in taking IT decisions
+• resource optimisation
+– Resources should be used optimally, balancing cost and performance
+35
+8. COBIT 4.1 translates the stakeholder needs in a series of specific and actionable goals, divided
+into four groups. What are these groups?
+1. financial goals
+2. customer related goals
+3. internal goals
+4. goals related to learning and growth
+9. COBIT proposes a system of “goals cascade”, linking goals at different levels. Explain this
+system and how it works.
+Figure 10: COBIT goals cascade.
+10. Describe the COBIT system of roles, activities and relationships and how it is used to
+implement governance.
+Figure 11: COBIT system of roles, activities and relationships.
+36
+11. Briefly describe the seven categories of enablers in COBIT.
+1. principles, policies and frameworks
+• means to convey direction and instructions of governance body and management to operational staff
+2. processes
+• collections of practices
+• influenced by the enterprise’s policies and procedures
+• takes inputs, manipulates inputs, produces outputs
+3. organizational structures
+• enterprise structure, in particular decision making structures
+• general operating principles
+• structures memberships
+• structures span of control (decision making boundaries)
+• structures level of authority (decisions they can make)
+• delegation of authority
+• escalation procedures
+4. culture, ethics and behaviour
+• individual and collective behavior
+5. information
+• all information, relevant to the enterprise
+• structured or unstructured
+• formal or informal
+6. services, infrastructure and applications
+• infrastructure, technology
+• provides IT services
+• internal or external provider
+7. people, skills and competences
+• correctly educated and qualified people
+• experience
+• behavioral skills
+12. What are the life cycle phases of a COBIT enabler?
+1. plan
+2. design
+3. build
+4. use
+5. monitor
+6. dispose
+37
+13. Briefly describe the five COBIT governance processes.
+1. ensure governance framework setting and maintenance
+• analyze and articulate requirements for governance of enterprise IT
+• put in place and maintain enabling structures, principles, processes and practices
+• define clear responsibilities and authorities
+2. ensure benefits delivery
+• optimize the contribution and value of IT to the business
+3. ensure risk optimisation
+• understand, articulate and communicate the IT related risk tolerance
+• identify and manage risks to enterprise value
+4. ensure resource optimisation
+• adequate and sufficient people, processes and technology to support enterprise objectives
+• at an optimal cost
+5. ensure stakeholder transparency
+• transparently measure and report IT performance and conformance (i.e. stakeholder approve of goals
+and metrics)
+14. According to Weill & Ross (2004), organizations need to make decisions in five IT domains.
+What are these domains?
+1. general principles
+2. IT investment
+3. IT architecture
+4. IT infrastructure
+5. applications
+15. According to Weill & Ross (2004), there are three parties involved in the decision making
+process. Which parties?
+1. top management of organization
+2. IT management
+3. departments or divisions of organization representing users of IT services
+16. How is the decision taking organized in companies, according to Weill & Ross (2004): which
+parties are involved in the decision taking in which domains?
+domain/party 1 2 3
+1 x x
+2 x (x)
+3 x
+4 x
+5 (x) x
+38
+17. Describe the decision taking process in each of the following domains of IT governance.
+Indicate who provides input for the decision and who takes the actual decision. The domains are:
+• The basic IT infrastructure, including the basic services
+• The IT investments, including the funding of IT projects
+• The applications, required by the different organizational units
+• The general principles of IT governance: the role of IT in the organization and the general guidelines for
+the use of IT
+• The IT architecture, describing the structure of the organization’s IT resources
+What is the typical spending of an organization in IT, as a percentage of its total expenses or
+total revenue?
+18. IT departments typically spend money in four areas by spreading their budget over these
+areas: which are these areas? How is their total spending typically spread over these four areas?
+• strategic projects (10-15%)
+– improve strategic position
+– (usually outside operational systems)
+– evaluate new technology
+• informational systems (20%)
+– information for business tactics and strategy
+– business intelligence
+– increase control, acquire useful information
+• transactional systems (10-15%)
+– business process automation
+– (more efficient, less labor, save cost)
+– accounting, order processing, invoicing
+• infrastructure (≈50%)
+– foundation of IT systems
+– networks, clients, servers, storage, printing
+– office and communication applications
+19. What are the two basic ways to fund IT in an organization?
+• homogeneous
+– charge-out
+∗ users pay for IT services
+∗ internal cost transfer / expense (outsourcing)
+– overhead
+∗ IT is considered general overhead cost
+• heterogeneous
+– combination of charge-out and overhead
+39
+20. Give the names of the six wives of king Henry VIII of England.
+1. Catherine of Aragon
+2. Anne Boleyn
+3. Jane Seymour
+4. Anne of Cleves
+5. Catherine Howard
+6. Catherine Parr
+21. Funding of IT can be heterogeneous. Describe a typical common heterogeneous funding
+pattern.
+Combine charge-out and overhead. The users pay for IT services. All extra costs are considered overhead.
+22. Briefly describe what COBIT is. What are the five basic principles of COBIT?
+COBIT stands for Control OBjectives for Information and related Technology.
+Basic principles:
+1. meeting stakeholders’ needs
+2. covering the enterprise end-to-end
+3. applying a single integrated framework
+4. enabling a holistic approach
+5. separating governance from management
+23. Briefly describe the five groups of processes, part of the COBIT framework.
+• governance processes
+– evaluate, direct and monitor
+• management processes
+– align, plan and organize
+– build, acquire and implement
+– deliver, service and support
+– monitor, evaluate and assess
+27. In which group of COBIT processes do you situate each of these processes?
+• Change management
+build, acquire and implement
+• Managing incidents and service requests
+deliver, service and support
+• Quality management
+monitor, evaluate and assess
+• Relationship management
+align, plan and organize
+• Providing IT governance
+evaluate, direct and monitor
+• Human resources management
+align, plan and organize
+40
+21 business-IT alignment
+1. For each of the descriptions below, identify the concept that is being defined:
+• The degree to which the IT mission, objectives, and plans support and are supported by the business
+mission, objectives and plans
+business-IT alignment
+• The proper governance of the IT function in accordance with the requirements of the business and the
+proper use of IT capabilities in the business
+business-IT alignment
+• In the strategic impact grid of Nolan and McFarlan (2005), the mode where organizations have little need
+for innovation and but high need for reliability
+factory mode
+• In the strategic impact grid of Nolan and McFarlan (2005), the mode where IT often represents a minor
+cost and organizations are usually technological followers, implementing standard IT systems
+support mode
+• In the Strategic Alignment Model, the perspective where the business strategy is the driving force and
+the IT infrastructure follows from the organizational infrastructure
+strategy execution
+• The perspective of the Strategic Alignment Model, mainly used by business that envisage technological
+leadership. This perspective does not consider the organizational infrastructure
+technology transformation
+• The perspective of the Strategic Alignment Model, suited to businesses that want to leverage technology
+to gain a competitive advantage. Alignment in this perspective is driven by the IT strategy.
+competetive potential
+• In the Strategic Alignment Model, the perspective that aims at achieving excellent IT service delivery.
+This approach essentially ignores the business strategy.
+service level
+• In the alignment model of Weill & Broadbent (1998), this context is concerned with the business products
+and markets, the customers and the investment
+strategic context
+• On this level of the Three-level business-IT alignment model, we determine how the strategy will be
+implemented
+tactical level
+• Organizations adopting this focus point typically have highly automated production facilities, tuned at
+large volumes
+operational focus
+• In this business operating model, there are few shared suppliers and customers among different business
+units, which are operationally unique and autonomously managed
+diversification
+• In this business operating model, business processes are highly standardized among business units, but
+the levels of business processes and business data integration are low
+replication
+• In this business operating model, business processes are minimally standardized but business processes
+and business data are highly integrated
+coordination
+41
+2. Give an example of how the business strategy of an organization influences the implementation
+of information systems.
+strategy execution
+technology transformation
+3. Give an example of how information technology influences the strategy of a business.
+competetive potential
+4. Luftman considers six general criteria to determine whether there is business-IT alignment.
+What are these criteria?
+• There is mature and integrated communication between the business and IT
+• IT demonstrates value to the business
+• There is proper governance of IT
+• There is a partnership between the business and IT
+• IT is able to provide flexible and customizable systems, supporting the business
+• IT skills are at a higher level
+5. Draw a schema showing the structure of the Generic framework for information management,
+developed by Maes (1999, 2007).
+Figure 12: Generic framework for information management by Maes.
+6. Describe the strategic impact grid of Nolan and McFarlan (2005). Give an example of an
+organization in each quadrant of the grid.
+Figure 13: Strategic impact grid of Nolan and McFarlan
+42
+7. Explain why, in the strategic impact grid of Nolan and McFarlan (2005), turnaround mode if
+often a temporary situation.
+It is a temporary situation, when organizations operating in support mode or factory mode need to overhaul
+their information systems completely.
+8. Describe the Strategic Alignment Model of Henderson and Venkatraman.
+Figure 14: Strategic Alignment Model of henderson and Venkatraman.
+9. Describe the four perspectives of business-IT alignment in the Strategic Alignment Model.
+How do they proceed to obtain alignment? For what kind of business is each perspective typically
+suited?
+Figure 15: The four perspectives of the Strategic Alignment Model of henderson and Venkatraman.
+43
+10. Describe the alignment model of Weill and Broadbent (1998).
+Figure 16: Alignment model of Weill and Broadbent.
+11. Describe the components of the three-level business-IT alignment framework.
+Figure 17: The three-level business-IT alignment framework.
+12. What are the four strategic focus points, important for business-IT alignment? Give typical
+characteristics of organizations, adopting each of the focus points.
+• financial focus
+– organizations focus on low costs and high return on investment
+– IT focused on financial management aspects
+• operational focus
+– organizations focus on high operational efficiency, governance and compliance
+– IT focused on high degree of automation of business processes
+• product focus
+– organizations develop, market and sell products with high value they continuously innovate with
+regard to their products, aiming at differentiating them from competition
+– IT focused on support of product development and sales processes
+• customer focus
+– organizations provide excellent service to their customers; aim at customer intimacy, understanding
+the customer needs and fulfilling these needs with great flexibility
+– IT focused on customer support
+44
+13. Give general guidelines for IT management for an organization adopting the financial strategic
+focus point.
+• Implements strict cost management
+• Strict rules for IT funding
+• Relation IT funding requirements management
+• Closely monitored purchasing and supplier management
+14. Give general guidelines for IT management for an organization adopting the operational
+strategic focus point.
+• IT used to automate business processes to maximum extent (large-scale transaction processing)
+• IT is efficient
+• Reliable, high-performance systems and services
+• Stable and efficient basic infrastructure
+• IT operations is primary focus
+• Continuous improvement of IT processes, services and systems
+• Active contribution to operational business process improvement
+• Sufficient capital available
+15. Give general guidelines for IT management for an organization adopting the product strategic
+focus point.
+• IT is flexible and agile (e.g. supporting product diversity, granular pricing)
+• IT supports creative processes (product development, prototyping), implementing communication and
+collaboration tools
+• IT delivers non-standard services
+• IT actively contributes to business products and services
+• IT supports marketing (e.g. business intelligence)
+• IT outsourcing
+16. Give general guidelines for IT management for an organization adopting the customer
+strategic focus point.
+• CRM
+• Support customer side of supply chain (delivery, after-sales)
+• Actively support customer purchasing improvement initiatives (e.g. web, mobile)
+• Actively support post-sales improvement initiatives
+45
+17. Discuss the four quadrants of the strategic attitude of organizations towards IT. What are
+the dimensions of the diagram and briefly explain the relation between the business and IT in
+each of the quadrants.
+Figure 18: Strategic attitude of organizations towards IT.
+18. Enterprise architecture can have three different purposes. Briefly describe these purposes.
+• building: the architected systems will be designed and built
+• communication: the enterprise model serves as a communication tool, usually between the business and
+IT by presenting a model that can be understood both by business management and IT
+• documentation: the enterprise model documents existing systems
+19. Explain why and how enterprise architecture is valuable for business-IT alignment.
+Enterprise architecture articulates the links between business and IT:
+• it contains information on how business processes are supported by applications
+• it provides data structures at business level
+20. The operating model of an organization has a profound influence on the enterprise architecture
+and therefore on business-IT alignment. Ross et al. (2006) developed a quadrant with four
+operating models. Describe their quadrant: what are the dimensions and what are the properties
+of the four different quadrants?
+Figure 19: The operating model by Ross et al.
+21. Describe the four stages of architectural maturity.
+1. business silos
+• low level of business-IT alignment
+• local alignment only (per business unit)
+• no global alignment efforts
+2. standardized technology
+46
+• full business-IT alignment on infrastructure level
+• some effort towards global alignment
+• (highest level for diversification operating model)
+3. optimized core
+• global business-IT alignment
+4. business modularity
+• agility on top of global business-IT alignment
+• combination of ‘local’ and ‘global’ alignment
+22. Which are the most important IT management processes and activities, contributing to
+business-IT alignment?
+23. Explain how the Luftman model measures business-IT alignment.
+It uses a 4-step approach with 38 criteria and 5 maturity levels.
+24. The Luftman model evaluates 38 criteria according to a model with maturity levels. Describe
+these maturity levels.
+1. ad hoc process
+• Lowest level
+• Minimal awareness
+• Alignment is improbable
+2. committed process
+• Commitment to begin
+• Still minimal awareness
+3. established process
+• Focused alignment awareness
+• IT embedded into business
+• IT used throughout enterprise
+4. improved process
+• Effective governance
+• IT considered valuable, innovative, contributing to business
+5. optima process
+• Governance mature
+• Integration IT strategic plan into business plan
+• IT used in supply chain
+25. The Luftman model recommends conducting a business-IT alignment assessment in four
+steps. Briefly describe these steps.
+1. form an assessment team
+• Typically 10 to 30 executives of investigated organization
+• Both business and IT
+2. gather information
+47
+• Team members evaluate criteria, giving maturity level
+• Scores are discussed
+3. decide on scores of each criterion
+• Agreement on average scores for each criterion
+• Calculation of average for each of the six categories
+4. decide on overall alignment score
+• Total score = average over six categories
+• Discussion and agreement on total score
+48
